@@ -1,2 +1,44 @@
-<h1>Home#flynn</h1>
-<p>Find me in app/views/home/flynn.html.erb</p>
+<header>
+	<div class="header-all">
+		<div class="header-left">
+			<%= image_tag 'logo.svg' %>
+		</div>
+
+		<div class="header-right">
+			<p> About </p>
+			<p> Docs </p>
+			<p> Blog </p>
+			<p> Pricing </p>
+			<button> Try </button>
+		</div>
+	</div>
+</header>
+
+<div class="section1">
+	<h1> Throw away the duct tape. <br /> Say hello to Flynn.</h1>
+	<div class="movie">
+		<%= image_tag 'movie.png' %>
+		<p> (Et non, c'est un fake, pas de vidéo pour cette fois)
+	</div>
+	<div class="options">
+		<p> Apps </p>
+		<p> Manage </p>
+		<p> Databases </p>
+	</div> 
+</div>
+
+<div class="section2">
+	<h2> Powerful and easy. The way it should be. </h2>
+	<div class="content">
+		<p> <strong> Flynn is an open source platform (PaaS) for running applications in production.</strong><br />
+		It does everything you need, out of the box: </p>
+		<ul>
+			<li> Creates running <a> applications </a> directly from your code so there's no need to learn configuration management or build custom stacks for each app </li>
+			<li> Routes and load balances traffic to every instance of each of your apps </li>
+			<li> Includes built-in Postgres, MySQL, and MongoDB <a> databases </a> with safe, automatic high availability </li>
+			<li> Connects all your microservices with built-in service discovery </li>
+			<li> Makes <a>scaling</a> your cluster to just the right size easy so you save money on your cloud bills </li>
+		</ul>
+	</div>
+	<h2> And now, time to go to bed...</h2>
+</div>
